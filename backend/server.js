@@ -35,19 +35,18 @@ app.use('/api/message', messageRoutes)
 
 // --------------------------- Deplyment
 
-const __dirname1 = path.resolve()
-if(process.env.NODE_ENV === "production"){
-    app.use(express.static(path.join(__dirname1, '/frontend/build')))
+const __dirname1 = path.resolve();
 
-    app.get("*", (req,res) => {
-        res.sendFile(path.resolve(__dirname1, "frontend", "build","index.html" ))
-    })
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname1, "/frontend/build")));
 
-}else{
-    app.get('/', (req,res) => {
-    res.send("API is Running Successfully");
-
-});
+  app.get("*", (req, res) =>
+    res.sendFile(path.resolve(__dirname1, "frontend", "build", "index.html"))
+  );
+} else {
+  app.get("/", (req, res) => {
+    res.send("API is running..");
+  });
 }
 
 // --------------------------- Deplyment
@@ -57,4 +56,5 @@ app.use(errorHandler)
 
 const PORT = process.env.PORT 
 
-app.listen(5001,console.log(`Server started on PORT ${PORT}`));
+const server = app.listen(5001,console.log(`Server started on PORT ${PORT}`));
+
