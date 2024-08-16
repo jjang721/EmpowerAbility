@@ -14,10 +14,10 @@ connectDB()
 
 app.use(express.json()) //this accepts the json data
 
-app.get('/', (req,res) => {
-    res.send("API is Running Successfully");
+// app.get('/', (req,res) => {
+//     res.send("API is Running Successfully");
 
-});
+// });
 
 app.get('/api/chat', (req,res) => {
     res.send(chats)
@@ -56,5 +56,5 @@ app.use(errorHandler)
 
 const PORT = process.env.PORT 
 
-const server = app.listen(5001,console.log(`Server started on PORT ${PORT}`));
+const server = app.listen(PORT,console.log(`Server started on PORT ${PORT}`));
 
