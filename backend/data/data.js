@@ -3,7 +3,7 @@ const chats = [
     isGroupChat: false,
     users: [
       {
-        name: "John Doe",
+        name: "Kevin Jang",
         email: "john@example.com",
       },
       {
@@ -12,7 +12,7 @@ const chats = [
       },
     ],
     _id: "617a077e18c25468bc7c4dd4",
-    chatName: "John Doe",
+    chatName: "Kevin Jang",
   },
   {
     isGroupChat: false,
@@ -42,7 +42,7 @@ const chats = [
       },
     ],
     _id: "617a077e18c2d468bc7c4dd4",
-    chatName: "Anthony",
+    chatName: "Albert",
   },
   {
     isGroupChat: true,
@@ -61,7 +61,7 @@ const chats = [
       },
     ],
     _id: "617a518c4081150716472c78",
-    chatName: "Friends",
+    chatName: "Basketball League Sunday",
     groupAdmin: {
       name: "Guest User",
       email: "guest@example.com",
@@ -80,7 +80,7 @@ const chats = [
       },
     ],
     _id: "617a077e18c25468bc7cfdd4",
-    chatName: "Jane Doe",
+    chatName: "Esther Lee",
   },
   {
     isGroupChat: true,
@@ -99,7 +99,7 @@ const chats = [
       },
     ],
     _id: "617a518c4081150016472c78",
-    chatName: "Chill Zone",
+    chatName: "Truth or Dare group",
     groupAdmin: {
       name: "Guest User",
       email: "guest@example.com",
