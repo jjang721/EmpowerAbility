@@ -12,7 +12,7 @@ const chats = [
       },
     ],
     _id: "617a077e18c25468bc7c4dd4",
-    chatName: "John Doe",
+    chatName: "Kevin Jang",
   },
   {
     isGroupChat: false,
@@ -27,7 +27,7 @@ const chats = [
       },
     ],
     _id: "617a077e18c25468b27c4dd4",
-    chatName: "Guest User",
+    chatName: "Esther Lee",
   },
   {
     isGroupChat: false,
@@ -42,7 +42,7 @@ const chats = [
       },
     ],
     _id: "617a077e18c2d468bc7c4dd4",
-    chatName: "Anthony",
+    chatName: "Albert",
   },
   {
     isGroupChat: true,
@@ -61,7 +61,7 @@ const chats = [
       },
     ],
     _id: "617a518c4081150716472c78",
-    chatName: "Friends",
+    chatName: "Basketball Sunday League",
     groupAdmin: {
       name: "Guest User",
       email: "guest@example.com",
@@ -80,7 +80,7 @@ const chats = [
       },
     ],
     _id: "617a077e18c25468bc7cfdd4",
-    chatName: "Jane Doe",
+    chatName: "Friday Hangout",
   },
   {
     isGroupChat: true,
@@ -99,7 +99,7 @@ const chats = [
       },
     ],
     _id: "617a518c4081150016472c78",
-    chatName: "Chill Zone",
+    chatName: "Truth or Dare Game",
     groupAdmin: {
       name: "Guest User",
       email: "guest@example.com",
