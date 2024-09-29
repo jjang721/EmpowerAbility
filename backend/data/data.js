@@ -101,7 +101,7 @@ const chats = [
     _id: "617a518c4081150016472c78",
     chatName: "Truth or Dare group",
     groupAdmin: {
-      name: "Guest User",
+      name: "Guest Person",
       email: "guest@example.com",
     },
   },
