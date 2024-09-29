@@ -16,7 +16,7 @@ const ChatPage = () => {
     display= 'flex'
     justifyContent='space-between'
     width = '100%'
-    height='91.5vh'
+    height='91.4vh'
     padding='10px'
 
     >
