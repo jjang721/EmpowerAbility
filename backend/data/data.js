@@ -99,7 +99,7 @@ const chats = [
       },
     ],
     _id: "617a518c4081150016472c78",
-    chatName: "Chill Zone",
+    chatName: "for all people",
     groupAdmin: {
       name: "Guest Person",
       email: "guest@example.com",
